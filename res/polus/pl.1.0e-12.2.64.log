@@ -1,0 +1,114 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 901283: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.2.64.log;#BSUB -e 1.0e-12.%J.err;OMP_NUM_THREADS=1 mpiexec 1.0e-12 64> in cluster <MSUCluster> Exited
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.2.64.log;#BSUB -e 1.0e-12.%J.err;OMP_NUM_THREADS=1 mpiexec 1.0e-12 64> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Sun Oct 16 17:12:28 2022
+Job was executed on host(s) <2*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Sun Oct 16 17:12:32 2022
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the working directory.
+Started at Sun Oct 16 17:12:32 2022
+Terminated at Sun Oct 16 17:12:34 2022
+Results reported at Sun Oct 16 17:12:34 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 2
+#BSUB -W 00:30
+#BSUB -o pl.1.0e-12.2.64.log
+#BSUB -e 1.0e-12.%J.err
+OMP_NUM_THREADS=1 mpiexec 1.0e-12 64
+
+------------------------------------------------------------
+
+Exited with exit code 134.
+
+Resource usage summary:
+
+    CPU time :                                   0.96 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpiexec command
+      line parameter option (remember that mpiexec interprets the first
+      unrecognized command line token as the executable).
+
+Node:       polus-c2-ib
+Executable: 1.0e-12
+--------------------------------------------------------------------------
+2 total processes failed to start
+
+
+PS:
+
+Read file <1.0e-12.901283.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 901308: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.2.64.log;#BSUB -e monte_carlo.%J.err;OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 64> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.2.64.log;#BSUB -e monte_carlo.%J.err;OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 64> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Sun Oct 16 17:16:39 2022
+Job was executed on host(s) <2*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Sun Oct 16 17:21:27 2022
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the working directory.
+Started at Sun Oct 16 17:21:27 2022
+Terminated at Sun Oct 16 17:29:17 2022
+Results reported at Sun Oct 16 17:29:17 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 2
+#BSUB -W 00:30
+#BSUB -o pl.1.0e-12.2.64.log
+#BSUB -e monte_carlo.%J.err
+OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 64
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   930.50 sec.
+    Max Memory :                                 11010 MB
+    Average Memory :                             5506.55 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                15
+    Run time :                                   472 sec.
+    Turnaround time :                            758 sec.
+
+The output (if any) follows:
+
+One master process and 1 slave process(es)
+Programm result: 1.128274458
+Counted error: 6.870060076e-13
+Dots count: 481701312
+Time: 464.0036543
+
+
+PS:
+
+Read file <monte_carlo.901308.err> for stderr output of this job.
+

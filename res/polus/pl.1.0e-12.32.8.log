@@ -1,0 +1,54 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 901322: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 32;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.32.8.log;#BSUB -e monte_carlo.%J.err;OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 8> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 32;#BSUB -W 00:30;#BSUB -o pl.1.0e-12.32.8.log;#BSUB -e monte_carlo.%J.err;OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 8> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Sun Oct 16 17:16:39 2022
+Job was executed on host(s) <20*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-628-03> in cluster <MSUCluster> at Mon Oct 17 00:21:26 2022
+                            <12*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-628/edu-cmc-skmodel22-628-03> was used as the working directory.
+Started at Mon Oct 17 00:21:26 2022
+Terminated at Mon Oct 17 00:24:00 2022
+Results reported at Mon Oct 17 00:24:00 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skmodel22-628-03 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 32
+#BSUB -W 00:30
+#BSUB -o pl.1.0e-12.32.8.log
+#BSUB -e monte_carlo.%J.err
+OMP_NUM_THREADS=1 mpiexec monte_carlo 1.0e-12 8
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4839.36 sec.
+    Max Memory :                                 1735 MB
+    Average Memory :                             1433.17 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              37
+    Max Threads :                                109
+    Run time :                                   153 sec.
+    Turnaround time :                            25641 sec.
+
+The output (if any) follows:
+
+One master process and 31 slave process(es)
+Programm result: 1.128274458
+Counted error: 5.393463454e-13
+Dots count: 481701312
+Time: 151.0209353
+
+
+PS:
+
+Read file <monte_carlo.901322.err> for stderr output of this job.
+
